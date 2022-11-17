@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=PT+Serif&display=swap');
+
+body{
+	font-family: 'Nunito Sans', sans-serif;
+    background: url(/donate.jpg) no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+p{
+	font-size: 16px;
+	color: #ffffff;
+	letter-spacing: 0.5px;
+}
+
+.form-control{
+	display: -webkit-inline-box;
+	width: 50%;
+	height: 58px;
+	padding: 6px 7px 6px 34px;
+    font-size: 20px;
+}
+
+.progress-bar{
+	background-color: #ed6024;
+}
+
+.back{
+    background-color: rgb(96, 33, 33);
+}
+
+.tri{
+	width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #424242;
+    position: relative;
+    top: -22px;
+    left: 300px;
+}
+
+.panel-default {
+    border-color: white;
+}    
+
+.panel-body{
+	background-color: #424242;
+    color: white;
+    border-radius: 6px;
+    padding: 20px 0px 20px 34px;
+    font-size: 21px;
+}
+
+.content{
+	border: 1px solid #e4e4e4;
+}
+
+.share{
+	padding: 0 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.save{
+	padding: 11px 36px;
+}
+
+#tell{
+	float: right;
+}
+
+.days{
+	color: #ed6024 !important;
+	font-weight: 700 !important;
+}
+
+.second-p{
+    margin-top: 10px;
+	margin-bottom: 28px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Changa', sans-serif;
+}
+
+.give{
+	float: right;
+    background: #2dbf00;
+    color: white;
+    padding: 13px 24px;
+    font-size: 20px;
+    border-bottom: 3px solid #2ab300;
+    border: none;
+}
+
+.give:hover{
+	background: #56cb32;
+	color: white;
+	box-shadow: none;
+	border-bottom: 3px solid #2dbf00;
+	border: none;
+}
+
+.give:focus{
+	background: #56cb32;
+	color: white;
+	box-shadow: none;
+	border-bottom: 3px solid #2dbf00;
+	border: none;
+}
+
+.why{
+    margin: 11px 0px 25px 6px;
+    color: #ffffff;
+    font-family: 'Changa', sans-serif;
+}
+
+.dollar{
+	position: relative;
+    left: -146px;
+    font-size: 20px;
+    top: 2px;
+    color: #828282;
+}
+
+.saved{
+	font-size: 20px;
+	font-weight: 600;
+	color: #424242;
+}
+
+@media (min-width: 768px){
+.modal-dialog {
+    width: 350px;
+    margin: 250px auto;
+   }
+}
+
+#target{
+	position: relative;
+    top: -91px;
+    left: 237px;
+}
+
+.border{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

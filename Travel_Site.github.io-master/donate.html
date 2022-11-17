@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Donation Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600" rel="stylesheet">
+    <link href="donate.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default" role="navigation">
+    	<div class="container">
+    		<div class="navbar-header">
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    				<span class="sr-only">Toggle navigation</span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    			</button>
+    			<a class="navbar-brand" href="#">Donation Page</a>
+    		</div>
+    		<div class="collapse navbar-collapse navbar-ex1-collapse">
+    			<ul class="nav navbar-nav navbar-right">
+    				<li><a href="#">Home</a></li>
+    			</ul>
+    		</div><!-- /.navbar-collapse -->
+    	</div>
+    </nav>
+
+    <div class="container">
+
+      <div class="col-md-offset-4 col-md-4">
+      	<div class="panel panel-default">
+      		<div class="panel-body">
+                Everyone can be great because everyone can serve.
+      		</div>
+      	</div>
+      	<div class="tri"></div>
+      		<div>
+      	      	<div class="progress">
+      				  <div class="progress-bar" role="progressbar" aria-valuenow="993"
+      				  aria-valuemin="0" aria-valuemax="1000">
+      				    <span class="sr-only">70% Complete</span>
+      				  </div>
+      			</div>
+      		</div>
+
+  		<div class="col-md-12 content back">
+  				<p class="second-p">Join other donors  who have already supported Us. Every Rupee helps.</p>
+  		
+  			<input type="number" class="form-control" name=""><span class="dollar">₹</span>
+  			<button type="button" class="btn btn-default give">Give Now</button>
+  				<p class="why"><strong><a href="#">why Donate?</a></strong></p>
+  		</div>
+
+		<div class= "share col-sm-12">
+          	<button type="button" class="btn btn-default save" data-toggle="modal" data-target="        #myModal">Save for later</button>
+          			<button type="button" class="btn btn-default save" id="tell" 
+                onclick="$('#target').toggle(200);">Tell your friends
+            </button>
+  </div>
+
+
+	
+	  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <p class="saved">Saved!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- /.container -->
+  
+  </body>
+</html>

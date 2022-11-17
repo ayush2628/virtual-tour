@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="travel.css" />
+  </head>
+  <body>
+    <form action="donate.html">
+      <div class="elem-group">
+        <label for="name">Your Name</label>
+        <input
+          type="text"
+          id="name"
+          name="visitor_name"
+          placeholder="John Doe"
+          pattern="[A-Z\sa-z]{3,20}"
+          required
+        />
+      </div>
+      <div class="elem-group">
+        <label for="email">Your E-mail</label>
+        <input
+          type="email"
+          id="email"
+          name="visitor_email"
+          placeholder="john.doe@email.com"
+          required
+        />
+      </div>
+      <div class="elem-group">
+        <label for="phone">Your Phone</label>
+        <input
+          type="tel"
+          id="phone"
+          name="visitor_phone"
+          placeholder="+91 9456897895"
+          pattern="[7-9]{1}[0-9]{9}"
+          required
+        />
+      </div>
+      <div class="elem-group">
+        <label for="phone">Destination</label>
+        <input
+          type="tel"
+          id="phone"
+          name="visitor_phone"
+          placeholder="Kedarnath, Uttarakhand"
+          pattern="[A-Z\sa-z]{3,20}"
+          required
+        />
+      </div>
+      <hr />
+      <div class="elem-group inlined">
+        <label for="checkin-date">Check-in Date</label>
+        <input type="date" id="checkin-date" name="checkin" required />
+      </div>
+      <div class="elem-group inlined">
+        <label for="checkout-date">Check-out Date</label>
+        <input type="date" id="checkout-date" name="checkout" required />
+      </div>
+      <hr />
+      <button type="submit">Book My Trip</button>
+    </form>
+
+    <script src="travel.js"></script>
+  </body>
+</html>
